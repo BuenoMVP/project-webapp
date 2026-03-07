@@ -4,8 +4,8 @@
     justify-content: space-between;
     align-items: center;
     background-color: transparent;
-    width: 50ch;
-    height: 70ch;
+    width: 17rem;
+    height: 24rem;
     border: 2px solid #ffffff;
     border-radius: 8px;
     padding: 2rem 2rem;
@@ -13,9 +13,9 @@
 }
 
 .main:hover {
-    background-color: rgb(200, 200, 200);
+    background-color: rgba(113, 11, 122, 0.397);
     cursor: pointer;
-    border: 2px solid #f10000;
+    border: 2px solid #640581;
     border-radius: 8px;
 }
 
