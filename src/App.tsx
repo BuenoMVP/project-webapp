@@ -1,7 +1,7 @@
 // import Button from './components/Button'
 import Card from './components/Card'
-import image from '../public/images/test.png'
 import './App.css'
+import { cardInfo } from './utils/cardInfo'
 
 function App() {
 
@@ -36,10 +36,15 @@ function App() {
           </ul>
         </div>
         <div className='container'>
-          <Card img={image} name='Card 1' />
-          <Card img={image} name='Card 2' />
-          <Card img={image} name='Card 3' />
-          <Card img={image} name='Card 4' />
+          {cardInfo.map((card) => (
+            <Card
+              key={card.name}
+              img_front={card.img_front}
+              img_back={card.img_back}
+              name={card.name}
+              title={card.text}
+            />
+          ))}
         </div>
         <div className="stats">
           <h2>Estatísticas</h2>
