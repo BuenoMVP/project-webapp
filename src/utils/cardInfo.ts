@@ -1,8 +1,10 @@
+// Icons
 import ghostImg from '../../public/icons/ghost.png'
 import promisseImg from '../../public/icons/promisse.png'
 import oldImg from '../../public/icons/old.png'
 import tritonImg from '../../public/icons/triton.png'
 
+// Images
 import fabricio from '../../public/photos/fabricioCard.jpg'
 import andre from '../../public/photos/andreCard.jpg'
 import vitor from '../../public/photos/vitorCard.jpg'

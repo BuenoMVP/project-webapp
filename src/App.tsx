@@ -1,41 +1,55 @@
 // import Button from './components/Button'
-import Card from './components/Card'
-import './App.css'
-import { cardInfo } from './utils/cardInfo'
+import Card from "./components/Card";
+import "./App.css";
+import { cardInfo } from "./utils/cardInfo";
 
 function App() {
-
   return (
-    <body className='main'>
-      <section className='content'>
-        <div className='intro'>
-          <h1>Central dos crias</h1>
+    <div className="main">
+      <section className="content">
+        <div className="intro">
+          <h1>CENTRAL DOS CRIAS</h1>
         </div>
-        <p className='motivation-box'>
-          Se você chegou até aqui, existem apenas três possibilidades:
+        <p className="motivation-box">
+          Se você chegou até aqui, existem apenas duas possibilidades:
           <ol>
-            <li>Você é um dos membros do grupo.</li>
-            <li>Você é um dos membros do grupo, mas não deveria estar aqui.</li>
-            <li>Você é um dos membros do grupo, mas definitivamente deveria estar fazendo algo melhor da vida.</li>
+            <li>Você não tem nada melhor para fazer.</li>
+            <li>Você até tem coisa melhor para fazer, mas quer procrastinar.</li>
           </ol>
           <br />
           De qualquer forma… seja bem-vindo.
         </p>
+        {/* <div className="description">
+          <h2>Objetivo</h2>
+          <p>
+            Informações sobre
+            nossos membros e atividades.
+          </p> 
+        </div>*/}
         <div className="members">
           <h2>Descrição dos membros</h2>
           <ul>
-            <li>O Fantasma – aparece uma vez por mês e some, sua maior participação é em eventos especiais,
-              isso quando não está ocupado limpando o banheiro ou na igreja.</li>
-            <li>O Virgem – preso em uma luta eterna pela perda do cabaço, seu maior objetivo é afogar o ganso ainda que
-               mesmo um pato seja mais experiente que ele.
+            <li>
+              O Fantasma - aparece uma vez por mês e some, sua maior
+              participação é em eventos especiais, isso quando não está ocupado
+              limpando o banheiro ou na igreja.
             </li>
-            <li>O Velho – sua existência vem de tempos imemoriais, boatos dizem que ele é o responsável por 
-              escrever o rascunho da biblia.
+            <li>
+              O Virgem - preso em uma luta eterna pela perda do cabaço,
+              seu maior objetivo é afogar o ganso ainda que mesmo um pato seja
+              mais experiente que ele.
             </li>
-            <li>O BRABO – sem dúvidas o mais brabo do grupo. Isso por si só já é altoexplicativo.</li>
+            <li>
+              O Velho - sua existência vem de tempos imemoriais, boatos
+              dizem que ele é o responsável por escrever o rascunho da biblia.
+            </li>
+            <li>
+              O BRABO - sem dúvidas o mais brabo do grupo. Isso por si
+              só já é autoexplicativo.
+            </li>
           </ul>
         </div>
-        <div className='container'>
+        <div className="card-container">
           {cardInfo.map((card) => (
             <Card
               key={card.name}
@@ -47,13 +61,13 @@ function App() {
           ))}
         </div>
         <div className="stats">
-          <h2>Estatísticas</h2>
+          <h2>ESTATÍSTICAS</h2>
           <p>Em breve...</p>
         </div>
       </section>
       {/* <Button text="qql coisa" action={() => console.log('Button clicked!')} /> */}
-    </body>
-  )
+    </div>
+  );
 }
 
-export default App
+export default App;
