@@ -130,10 +130,10 @@ export const personalInfo: InfoProps[] = [
     no final, ninguém lembra exatamente o que comprou… só que ficou devendo alguma coisa.
     Dizem que se você ficar cinco minutos conversando com ele, sai com um produto que não precisava,
     um plano de pagamento improvisado e a leve sensação de que o banco central deveria estar investigando.`,
-    age: ageCalculator("23/07/2003"),
-    birthday: "23/07/2003",
+    age: ageCalculator("31/10/2003"),
+    birthday: "31/10/2003",
     url: "afonso",
-    daysUntilBirthday: dateConverter("23/07/2003"),
+    daysUntilBirthday: dateConverter("31/10/2003"),
     kisses: 17,
     beers: 20.391,
     rejections: 30,

@@ -11,7 +11,7 @@ import fabricio from '/photos/fabriciossauroCard.jpg?url'
 import andre from '/photos/andreCardNew.jpg?url'
 import vitor from '/photos/vitorCard.jpg?url'
 import marcos from '/photos/marcosCard.jpg?url'
-import luis from '/photos/luisCard.jpg?url'
+import luis from '/photos/luisModelo.jpg?url'
 import afonso from '/photos/afonsoCard.jpg?url'
 
 import type { CardProps } from './props'
