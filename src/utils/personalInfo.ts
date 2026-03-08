@@ -2,6 +2,8 @@ import fabricio from "/photos/fabricio.jpg?url";
 import andre from "/photos/andre.jpg?url";
 import vitor from "/photos/vitor.jpg?url";
 import marcos from "/photos/marcos.jpg?url";
+import luis from "/photos/luis.jpg?url";
+import afonso from "/photos/afonso.jpg?url";
 
 import type { InfoProps } from "./props";
 
@@ -98,6 +100,38 @@ export const personalInfo: InfoProps[] = [
     age: ageCalculator("23/07/2003"),
     birthday: "23/07/2003",
     url: "marcos",
+    daysUntilBirthday: dateConverter("23/07/2003"),
+    kisses: 123412,
+    beers: 12341234,
+    rejections: 56782,
+  },
+  {
+    name: "Luis Felipe",
+    perfilImg: luis,
+    title: "O GUERREIRO",
+    description: `Tão brabo que ninguém sabe exatamente por quê, mas todo mundo concorda que é. 
+    Não importa a situação: no jogo, no rolê ou na discussão mais aleatória, 
+    ele sempre dá um jeito de agir como se estivesse no nível máximo enquanto o 
+    resto ainda tá no tutorial.`,
+    age: ageCalculator("23/07/2003"),
+    birthday: "23/07/2003",
+    url: "luis",
+    daysUntilBirthday: dateConverter("23/07/2003"),
+    kisses: 123412,
+    beers: 12341234,
+    rejections: 56782,
+  },
+  {
+    name: "Afonso Holtman",
+    perfilImg: afonso,
+    title: "O comerciante",
+    description: `Tão brabo que ninguém sabe exatamente por quê, mas todo mundo concorda que é. 
+    Não importa a situação: no jogo, no rolê ou na discussão mais aleatória, 
+    ele sempre dá um jeito de agir como se estivesse no nível máximo enquanto o 
+    resto ainda tá no tutorial.`,
+    age: ageCalculator("23/07/2003"),
+    birthday: "23/07/2003",
+    url: "afonso",
     daysUntilBirthday: dateConverter("23/07/2003"),
     kisses: 123412,
     beers: 12341234,
