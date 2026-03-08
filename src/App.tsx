@@ -18,6 +18,7 @@ function App() {
               <Info 
                 perfilImg={person.perfilImg}
                 name={person.name}
+                title={person.title}
                 description={person.description}
                 age={person.age}
                 birthday={person.birthday}

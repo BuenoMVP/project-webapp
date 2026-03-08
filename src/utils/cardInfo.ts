@@ -17,24 +17,28 @@ export const cardInfo: CardProps[] = [
     name: "Fabrício Bibiko",
     img_front: ghostImg,
     img_back: fabricio,
-    title: "O FANTASMA"
+    title: "O FANTASMA",
+    url: "fabricio",
   },
   {
     name: "André Viado",
     img_front: promisseImg,
     img_back: andre,
-    title: "O VIRGEM"
+    title: "O VIRGEM",
+    url: "andre",
   },
   {
     name: "Vitor Ancião",
     img_front: oldImg,
     img_back: vitor,
-    title: "O VELHO"
+    title: "O VELHO",
+    url: "vitor",
   },
   {
     name: "Marcos Sereio",
     img_front: tritonImg,
     img_back: marcos,
-    title: "O BRABO"
+    title: "O BRABO",
+    url: "marcos",
   },
 ];

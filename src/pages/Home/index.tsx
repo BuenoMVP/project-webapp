@@ -57,6 +57,7 @@ function Home() {
               img_back={card.img_back}
               name={card.name}
               title={card.title}
+              url={card.url}
             />
           ))}
         </div>

@@ -5,7 +5,7 @@ import type { CardProps } from "../../utils/props";
 
 function Card(props: CardProps) {
   return (
-    <Link className={styles.main} to='/info'>
+    <Link className={styles.main} to={`/${props.url}`}>
       <div className={styles.flipCardInner}>
         <div className={styles.flipCardFront}>
           <img

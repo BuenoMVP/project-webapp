@@ -5,25 +5,87 @@
     justify-content: space-around;
     width: 100%;
     height: 100%;
-    padding: 2rem 0;
+    padding: 2rem 2rem;
+    background-color: #0000009c;
+    border-radius: 15px;
+    border: #520372a6 2px solid;
 }
 
 .photoBox {
-    width: 20rem;
+    width: 30rem;
     height: 30rem;
-    background-color: blue;
     margin-bottom: 20px;
+    
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; 
+        border-radius: 8px;
+    }
 }
 
-.stats {
+.infos {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    gap: 3rem;
+    align-items: left;
+    width: 100%;
+    height: 100%;
+    padding: 1rem 3rem;
+}
+
+.infoTitleBox {
+    width: 100%;
+
+    .infoTitleText {
+        color: #f893e2;
+        width: 100%;
+        padding: 0.2rem 0;
+        font-size: 1.6rem;
+        font-weight: bold;
+    }
+
+    .infoNameText {
+        padding: 0.2rem 0;
+        font-weight: bold;
+    }
+
+    span {
+        position: absolute;
+        background-color: #f893e2;
+        height: 4px;
+        width: 4rem;
+    }
+}
+
+.infoDescriptionBox {
+    width: 100%;
+    height: 100%;
+
+    p {
+        text-align: justify;
+        line-height: 1.4;
+    }
+} 
+
+.infoStatusBox {
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: left;
+    width: 100%;
+    height: 10rem;
+    border: #f893e2 2px solid;
+    border-radius: 8px;
+    padding: 1rem;
     
-    h2 {
+    div {
         display: flex;
-        justify-content: center;
-        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: left;
+        width: 50%;
+        height: 100%;
     }
 }

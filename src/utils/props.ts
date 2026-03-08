@@ -3,11 +3,13 @@ export type CardProps = {
   img_back: string;
   name: string;
   title: string;
+  url?: string;
 };
 
 export type InfoProps = {
   perfilImg: string;
   description: string;
+  title: string
   name: string;
   age: number;
   birthday: string;
