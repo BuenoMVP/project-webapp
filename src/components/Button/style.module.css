@@ -1,0 +1,24 @@
+.main {
+    background-color: transparent;
+    width: 5vw;
+    height: 3vw;
+}
+
+.button {
+    color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #414141;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}

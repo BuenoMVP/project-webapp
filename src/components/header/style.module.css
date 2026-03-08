@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+    min-height: 3rem;
+    gap: 2rem;
+
+    .home {
+        height: 100%;
+    }
+
+    .path {
+        color: #f893e2;
+        font-size: 1.2rem;
+        font-weight: bold;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        gap: 1rem;
+
+        .path {
+            h2 {
+                font-size: 1rem;
+            }
+        }
+    }
+}
