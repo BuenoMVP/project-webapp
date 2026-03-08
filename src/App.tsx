@@ -1,72 +1,32 @@
-// import Button from './components/Button'
-import Card from "./components/Card";
-import "./App.css";
-import { cardInfo } from "./utils/cardInfo";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import Info from "./pages/Info";
+
+import { personalInfo } from "./utils/personalInfo";
+import type { InfoProps } from "./utils/props";
 
 function App() {
   return (
-    <div className="main">
-      <section className="content">
-        <div className="intro">
-          <h1>CENTRAL DOS CRIAS</h1>
-        </div>
-        <p className="motivation-box">
-          Se você chegou até aqui, existem apenas duas possibilidades:
-          <ol>
-            <li>Você não tem nada melhor para fazer.</li>
-            <li>Você até tem coisa melhor para fazer, mas quer procrastinar.</li>
-          </ol>
-          <br />
-          De qualquer forma… seja bem-vindo.
-        </p>
-        {/* <div className="description">
-          <h2>Objetivo</h2>
-          <p>
-            Informações sobre
-            nossos membros e atividades.
-          </p> 
-        </div>*/}
-        <div className="members">
-          <h2>Descrição dos membros</h2>
-          <ul>
-            <li>
-              O Fantasma - aparece uma vez por mês e some, sua maior
-              participação é em eventos especiais, isso quando não está ocupado
-              limpando o banheiro ou na igreja.
-            </li>
-            <li>
-              O Virgem - preso em uma luta eterna pela perda do cabaço,
-              seu maior objetivo é afogar o ganso ainda que mesmo um pato seja
-              mais experiente que ele.
-            </li>
-            <li>
-              O Velho - sua existência vem de tempos imemoriais, boatos
-              dizem que ele é o responsável por escrever o rascunho da biblia.
-            </li>
-            <li>
-              O BRABO - sem dúvidas o mais brabo do grupo. Isso por si
-              só já é autoexplicativo.
-            </li>
-          </ul>
-        </div>
-        <div className="card-container">
-          {cardInfo.map((card) => (
-            <Card
-              key={card.name}
-              img_front={card.img_front}
-              img_back={card.img_back}
-              name={card.name}
-              title={card.text}
-            />
-          ))}
-        </div>
-        <div className="stats">
-          <h2>ESTATÍSTICAS</h2>
-          <p>Em breve...</p>
-        </div>
-      </section>
-      {/* <Button text="qql coisa" action={() => console.log('Button clicked!')} /> */}
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        {personalInfo.map((person: InfoProps) => (
+          <Route 
+            key={person.name}
+            path={`/${person.url}`} 
+            element={
+              <Info 
+                perfilImg={person.perfilImg}
+                name={person.name}
+                description={person.description}
+                age={person.age}
+                birthday={person.birthday}
+              />
+            } 
+          />
+        ))}
+      </Routes>
+    </BrowserRouter>
   );
 }
 

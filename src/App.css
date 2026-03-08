@@ -5,7 +5,6 @@
     font-size: 1.2rem;
     box-sizing: border-box;
     color: #ffffff;
-    
 
     h1 {
         font-size: 2.5rem;
@@ -34,75 +33,4 @@
     align-items: center;
     min-width: 90vw;
     gap: 3rem;
-}
-
-.motivation-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: right;
-    width: 100%;
-
-    ol {
-        margin-top: 20px;
-        list-style-type: decimal;
-        padding-left: 20px;
-        padding-left: 2rem;
-    }
-}
-
-.intro {
-    text-align: center;
-    margin-bottom: 20px;
-    width: 100%;
-}
-
-/* .description {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: left;
-    width: 100%;
-    
-    h2 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    p {
-        margin-top: 20px;
-        text-align: justify;
-    }
-} */
-
-.members {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: left;
-    width: 100%;
-    
-    h2 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    ul {
-        display: flex;
-        flex-direction: column;
-        margin-top: 20px;
-        list-style-type: disc;
-        gap: 1.5rem;
-        list-style: inside;
-    }
-}
-
-.card-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 100%;
 }

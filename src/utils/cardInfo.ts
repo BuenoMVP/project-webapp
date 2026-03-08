@@ -10,29 +10,31 @@ import andre from '../../public/photos/andreCard.jpg'
 import vitor from '../../public/photos/vitorCard.jpg'
 import marcos from '../../public/photos/marcosCard.jpg'
 
-export const cardInfo = [
+import type { CardProps } from './props'
+
+export const cardInfo: CardProps[] = [
   {
     name: "Fabrício Bibiko",
     img_front: ghostImg,
     img_back: fabricio,
-    text: "O FANTASMA"
+    title: "O FANTASMA"
   },
   {
     name: "André Viado",
     img_front: promisseImg,
     img_back: andre,
-    text: "O VIRGEM"
+    title: "O VIRGEM"
   },
   {
     name: "Vitor Ancião",
     img_front: oldImg,
     img_back: vitor,
-    text: "O VELHO"
+    title: "O VELHO"
   },
   {
     name: "Marcos Sereio",
     img_front: tritonImg,
     img_back: marcos,
-    text: "O BRABO"
+    title: "O BRABO"
   },
 ];

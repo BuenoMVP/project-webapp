@@ -1,15 +1,11 @@
+import { Link } from "react-router-dom";
 import styles from "./style.module.css";
 
-type CardProps = {
-  img_front: string;
-  img_back: string;
-  name: string;
-  title: string;
-};
+import type { CardProps } from "../../utils/props";
 
 function Card(props: CardProps) {
   return (
-    <button className={styles.main}>
+    <Link className={styles.main} to='/info'>
       <div className={styles.flipCardInner}>
         <div className={styles.flipCardFront}>
           <img
@@ -28,7 +24,7 @@ function Card(props: CardProps) {
           <h2>{props.name}</h2>
         </div>
       </div>
-    </button>
+    </Link>
   );
 }
 
