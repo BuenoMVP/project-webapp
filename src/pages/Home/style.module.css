@@ -58,6 +58,17 @@
         list-style-type: disc;
         gap: 1.5rem;
         list-style: inside;
+
+        li {
+            border: #fff 2px solid;
+            border-radius: 8px;
+            padding: 1rem;
+        }
+
+        li:hover {
+            background-color: #00000054;
+            cursor: crosshair;
+        }
     }
 }
 

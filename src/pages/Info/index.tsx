@@ -23,13 +23,13 @@ function Info(props: InfoProps) {
             <div className={styles.infoStatusBox}>
               <div>
                 <p>Idade: {props.age} anos</p>
-                <p>Bocas beijadas: 123412</p>
-                <p>Cervejas consumidas: 12341234</p>
+                <p>Bocas beijadas: {props.kisses}</p>
+                <p>Cervejas consumidas: {props.beers}</p>
               </div>
               <div>
                 <p>Aniversário: {props.birthday}</p>
-                <p>Dias até o aniversário: 1234</p>
-                <p>Foras recebidos: 5678</p>
+                <p>Dias até o aniversário: {props.daysUntilBirthday}</p>
+                <p>Foras recebidos: {props.rejections}</p>
               </div>
             </div>
           </div>

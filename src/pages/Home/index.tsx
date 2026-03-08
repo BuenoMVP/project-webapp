@@ -10,7 +10,7 @@ function Home() {
         <div className={styles.intro}>
           <h1>CENTRAL DOS CRIAS</h1>
         </div>
-        <p className={styles.motivationBox}>
+        {/* <p className={styles.motivationBox}>
           Se você chegou até aqui, existem apenas duas possibilidades:
           <ol>
             <li>Você não tem nada melhor para fazer.</li>
@@ -18,7 +18,7 @@ function Home() {
           </ol>
           <br />
           De qualquer forma… seja bem-vindo.
-        </p>
+        </p> */}
         {/* <div className="description">
           <h2>Objetivo</h2>
           <p>

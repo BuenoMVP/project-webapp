@@ -22,6 +22,10 @@ function App() {
                 description={person.description}
                 age={person.age}
                 birthday={person.birthday}
+                daysUntilBirthday={person.daysUntilBirthday}
+                kisses={person.kisses}
+                beers={person.beers}
+                rejections={person.rejections}
               />
             } 
           />

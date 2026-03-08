@@ -14,4 +14,8 @@ export type InfoProps = {
   age: number;
   birthday: string;
   url?: string;
+  daysUntilBirthday: number;
+  kisses: number;
+  beers: number;
+  rejections: number;
 };

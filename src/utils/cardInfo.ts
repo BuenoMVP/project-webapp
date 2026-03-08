@@ -5,7 +5,7 @@ import oldImg from '../../public/icons/old.png'
 import tritonImg from '../../public/icons/triton.png'
 
 // Images
-import fabricio from '../../public/photos/fabricioCard.jpg'
+import fabricio from '../../public/photos/fabriciossauroCard.jpg'
 import andre from '../../public/photos/andreCard.jpg'
 import vitor from '../../public/photos/vitorCard.jpg'
 import marcos from '../../public/photos/marcosCard.jpg'
@@ -14,14 +14,14 @@ import type { CardProps } from './props'
 
 export const cardInfo: CardProps[] = [
   {
-    name: "Fabrício Bibiko",
+    name: "Bibikossauro",
     img_front: ghostImg,
     img_back: fabricio,
     title: "O FANTASMA",
     url: "fabricio",
   },
   {
-    name: "André Viado",
+    name: "André Cabaço",
     img_front: promisseImg,
     img_back: andre,
     title: "O VIRGEM",
