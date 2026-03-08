@@ -1,12 +1,14 @@
 import styles from "./style.module.css";
 import "../../App.css";
 
+import Header from "../../components/header";
 import type { InfoProps } from "../../utils/props";
 
 function Info(props: InfoProps) {
   return (
     <div className="main">
       <section className="content">
+        <Header url={props.url} />
         <div className={styles.container}>
           <div className={styles.photoBox}>
             <img src={props.perfilImg} alt={props.name} />

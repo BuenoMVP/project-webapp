@@ -19,3 +19,7 @@ export type InfoProps = {
   beers: number;
   rejections: number;
 };
+
+export type HeaderProps = {
+  url?: string;
+};

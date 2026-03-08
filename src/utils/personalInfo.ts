@@ -1,7 +1,7 @@
-import fabricio from "../../public/photos/fabricio.jpg";
-import andre from "../../public/photos/andre.jpg";
-import vitor from "../../public/photos/vitor.jpg";
-import marcos from "../../public/photos/marcos.jpg";
+import fabricio from "/photos/fabricio.jpg?url";
+import andre from "/photos/andre.jpg?url";
+import vitor from "/photos/vitor.jpg?url";
+import marcos from "/photos/marcos.jpg?url";
 
 import type { InfoProps } from "./props";
 

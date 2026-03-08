@@ -1,14 +1,14 @@
 // Icons
-import ghostImg from '../../public/icons/ghost.png'
-import promisseImg from '../../public/icons/promisse.png'
-import oldImg from '../../public/icons/old.png'
-import tritonImg from '../../public/icons/triton.png'
+import ghostImg from '/icons/ghost.png?url'
+import promisseImg from '/icons/promisse.png?url'
+import oldImg from '/icons/old.png?url'
+import tritonImg from '/icons/triton.png?url'
 
 // Images
-import fabricio from '../../public/photos/fabriciossauroCard.jpg'
-import andre from '../../public/photos/andreCard.jpg'
-import vitor from '../../public/photos/vitorCard.jpg'
-import marcos from '../../public/photos/marcosCard.jpg'
+import fabricio from '/photos/fabriciossauroCard.jpg?url'
+import andre from '/photos/andreCard.jpg?url'
+import vitor from '/photos/vitorCard.jpg?url'
+import marcos from '/photos/marcosCard.jpg?url'
 
 import type { CardProps } from './props'
 
