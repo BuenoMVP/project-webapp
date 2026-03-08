@@ -66,7 +66,6 @@
 
         li:hover {
             background-color: #00000054;
-            cursor: wait;
         }
     }
 }
@@ -80,4 +79,27 @@
     flex-wrap: wrap;
     align-content: center;
     gap: 1.5em;
+}
+
+@media screen and (max-width: 768px) {
+    .intro {
+        h1 {
+            font-size: 1.5rem;
+        }
+    }
+
+    .members {
+        h2 {
+            font-size: 1.2rem;
+        }
+
+        ul {
+            gap: 1rem;
+
+            li {
+                padding: 0.5rem;
+                font-size: .8rem;
+            }
+        }
+    }
 }

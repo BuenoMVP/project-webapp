@@ -8,7 +8,7 @@ import sellerImg from '/icons/seller.png?url'
 
 // Images
 import fabricio from '/photos/fabriciossauroCard.jpg?url'
-import andre from '/photos/andreCard.jpg?url'
+import andre from '/photos/andreCardNew.jpg?url'
 import vitor from '/photos/vitorCard.jpg?url'
 import marcos from '/photos/marcosCard.jpg?url'
 import luis from '/photos/luisCard.jpg?url'
@@ -53,7 +53,7 @@ export const cardInfo: CardProps[] = [
     url: "luis",
   },
   {
-    name: "Afonso Gay",
+    name: "Afonseller",
     img_front: sellerImg,
     img_back: afonso,
     title: "O COMERCIANTE",

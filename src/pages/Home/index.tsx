@@ -44,6 +44,14 @@ function Home() {
               dizem que ele é o responsável por escrever o rascunho da biblia.
             </li>
             <li>
+              O Guerreiro - de um garoto que vivia com a mão desmunhecada até um dos mais brabos 
+              militares, embora tenha trocado recentemente o fuzil por uma mamadeira e fraldas.
+            </li>
+            <li>
+              O Comerciante - envolvido com atividades no mercado negro há tempos,
+              seu maior talento é transformar qualquer oportunidade de negócio em uma dívida.
+            </li>
+            <li>
               O BRABO - sem dúvidas o mais brabo do grupo. Isso por si
               só já é autoexplicativo.
             </li>
